@@ -1,12 +1,14 @@
+body {
+    background-color: #5aaca6;
+}
+
 section{
     display: flex;
     width: 100vw;
     justify-content: flex-end ;
     margin: 100px 20px 10px; /* A margem 100px é para distancia o header */
 }
-body {
-    background-color: #5aaca6;
-}
+
 /* inicio - bloco do perfil do usuario (canto superior esquerdo)*/
 .perfil {
     width: 250px;

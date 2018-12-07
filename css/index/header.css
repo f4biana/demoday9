@@ -79,6 +79,13 @@ header>a {
     bottom: 0;
     text-decoration: none;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #111111;
+}
+
 body>section:nth-child(2){
     z-index: -1;
     top:70px;
