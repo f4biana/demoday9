@@ -1,12 +1,175 @@
 section{
-    width: 50px;
-    height: 100px;
     display: flex;
-    justify-content: flex-start;
-    background-color: aqua;
+    width: 100vw;
+    justify-content: flex-end ;
+    margin: 100px 20px 10px; /* A margem 100px é para distancia o header */
+}
+body {
+    background-color: #5aaca6;
+}
+/* inicio - bloco do perfil do usuario (canto superior esquerdo)*/
+.perfil {
+    width: 250px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    left: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0 20px;
+    background-color: white;
+}
+.perfil>* {/* pega todos os elementos dentro da div*/
+    margin: 7px 0;
+}
+.perfil>img{
+    width: 200px;
+    height: 225px;
+}
+/* fim - bloco do perfil  */
+
+/* inicio - feed (aonde vamos colocar doações, vagas, etc...) */
+.feed{
+    width: 60%;
+    margin-right: 150px;
+}
+.feedItem{
+    width: 100%;
+    height: 10%;
+    margin: 15px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
 }
 
-div > img{
-    width: 200px;
-    height: 300px;
+.tituloSangue{
+    color: red;
 }
+
+.sangue{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sangue>img { 
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.sangue p{
+    width: 70%;
+    font-size: 11pt;
+}
+
+.negrito{
+    font-weight: bolder;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.emailDeSangue {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.emailDeSangue>input {
+    width: 50%;
+    margin: 0 15px;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 5px 10px;
+}
+.emailDeSangue>button {
+    border-radius: 50%;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.vaga{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.vaga>img {
+    width: 125px;
+    height: 100px;
+    border-radius: 20px;
+}
+.vaga>h2 {
+    color: orange;  
+}
+
+.butao{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+
+.indicar{
+    background-color: black;
+    color:lightgray;
+}
+
+.voluntario{
+    background-color: orange;
+    color: white;
+}
+
+.tituloDoacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.tituloDoacao>h1 {
+    color: green;
+}
+.tituloDoacao>img {
+    width: 125px;
+    height: 100px;
+    border-radius: 20px;
+}
+.buttonDoacao {
+    height: 30px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* fim - feed */
+/* inicio - filtro no feed */
+.filtro {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+/*Continue aqui... */
+
+/*fim - filtro no feed */

@@ -16,3 +16,16 @@ footer > div{
     align-items: center;
     justify-content: space-around;
 }
+
+footer > div > a{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+
+footer > div > a > img{
+    border-radius: 40%;
+    width: 35px;
+    height: 35px;
+}
