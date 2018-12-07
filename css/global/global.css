@@ -71,11 +71,14 @@ body {
 .sangue p{
     width: 70%;
     font-size: 11pt;
-    font-style: italic;
 }
 
-.sangue span{
+.negrito{
     font-weight: bolder;
+}
+
+.italico{
+    font-style: italic;
 }
 
 .emailDeSangue {
@@ -100,27 +103,37 @@ body {
     border: none;
 }
 
-.tituloDaVaga {
+.vaga{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-around;
     width: 100%;
 }
-.tituloDaVaga>img {
+
+.vaga>img {
     width: 125px;
     height: 100px;
     border-radius: 20px;
 }
-.tituloDaVaga>h1 {
+.vaga>h2 {
     color: orange;  
 }
-.buttonVaga {
+
+.butao{
     height: 30px;
     width: 150px;
-    background-color: orange;
-    color: white;
     border: none;
     border-radius: 5px;
+}
+
+.indicar{
+    background-color: black;
+    color:lightgray;
+}
+
+.voluntario{
+    background-color: orange;
+    color: white;
 }
 
 .tituloDoacao {
