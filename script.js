@@ -18,4 +18,4 @@ function rodar (){
     contador = 0;
 }
 
-setInterval(rodar, 1500);
+setInterval(rodar, 2000);
