@@ -8,15 +8,15 @@
     text-shadow: 1px 1px 1px #5F04B4;
 }
 
-a{
+header>a{
     color: white;
     text-shadow: 1px 1px 1px #111111;
 }
 
-a,button, input {
+header>a,button, input {
     text-decoration: none;
 }
-a, button {
+header>a, button {
     cursor: pointer;
 }
 header, .informacao button {
@@ -55,19 +55,29 @@ header input {
     border-radius: 5px;
     border: none;
 }
-header button {
+header button a{
+    display: flex;
     height: 32px;
     width: 32px;
     border-radius: 50%;
     border: none;
+    justify-content: center;
+    align-items: center;
     background-color: #e93939;
     color: white;
     font-size: 16pt;
+    text-decoration: none;
 }
+header button{
+    border: none;
+    background-color: #5aaca6;
+}
+
 header>a {
     position: absolute;
     right: 12vw;
     bottom: 0;
+    text-decoration: none;
 }
 body>section:nth-child(2){
     margin-top: 70px;
